@@ -1,0 +1,15 @@
+C:\Users\Kan\source\repos\Hangman_Game\Hangman_Game\bin\Debug\Hangman_Game.exe.config
+C:\Users\Kan\source\repos\Hangman_Game\Hangman_Game\bin\Debug\Hangman_Game.exe
+C:\Users\Kan\source\repos\Hangman_Game\Hangman_Game\bin\Debug\Hangman_Game.pdb
+C:\Users\Kan\source\repos\Hangman_Game\Hangman_Game\obj\Debug\Hangman_Game.csprojAssemblyReference.cache
+C:\Users\Kan\source\repos\Hangman_Game\Hangman_Game\obj\Debug\Hangman_Game.MainMenu.resources
+C:\Users\Kan\source\repos\Hangman_Game\Hangman_Game\obj\Debug\Hangman_Game.Properties.Resources.resources
+C:\Users\Kan\source\repos\Hangman_Game\Hangman_Game\obj\Debug\Hangman_Game.csproj.GenerateResource.cache
+C:\Users\Kan\source\repos\Hangman_Game\Hangman_Game\obj\Debug\Hangman_Game.csproj.CoreCompileInputs.cache
+C:\Users\Kan\source\repos\Hangman_Game\Hangman_Game\obj\Debug\Hangman_Game.exe
+C:\Users\Kan\source\repos\Hangman_Game\Hangman_Game\obj\Debug\Hangman_Game.pdb
+C:\Users\Kan\source\repos\Hangman_game\Hangman_Game\obj\Debug\Hangman_Game.NewUser.resources
+C:\Users\Kan\source\repos\Hangman_game\Hangman_Game\obj\Debug\Hangman_Game.recPass.resources
+C:\Users\Kan\source\repos\Hangman_game\Hangman_Game\obj\Debug\Hangman_Game.ChooseGame.resources
+C:\Users\Kan\source\repos\Hangman_game\Hangman_Game\obj\Debug\Hangman_Game.EasyGame.resources
+C:\Users\Kan\source\repos\Hangman_game\Hangman_Game\obj\Debug\Hangman_Game.HardGame.resources

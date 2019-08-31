@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A0AE59B-18E4-4D18-B536-6DDD02808718}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hangman_Game</RootNamespace>
+    <AssemblyName>Hangman_Game</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChooseGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseGame.Designer.cs">
+      <DependentUpon>ChooseGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EasyGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EasyGame.Designer.cs">
+      <DependentUpon>EasyGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HardGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HardGame.Designer.cs">
+      <DependentUpon>HardGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewUser.Designer.cs">
+      <DependentUpon>NewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecoverPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecoverPassword.Designer.cs">
+      <DependentUpon>RecoverPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChooseGame.resx">
+      <DependentUpon>ChooseGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EasyGame.resx">
+      <DependentUpon>EasyGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HardGame.resx">
+      <DependentUpon>HardGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewUser.resx">
+      <DependentUpon>NewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecoverPassword.resx">
+      <DependentUpon>RecoverPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\westerado-100022587-orig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hangman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hangman_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hangman_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\westerado-100022587-orig - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\community_image_1390112444.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\westerado-Newuser_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hangman_game_bdrop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hangman_game_bdrop_final.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Easy Game.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main menu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard game.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Easy Game1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_playdrop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_playdrop1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game play .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hang11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hang21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hang31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hang41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hang51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hang61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hang71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
