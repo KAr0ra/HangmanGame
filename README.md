@@ -6,94 +6,44 @@
 <div align="center">
 
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
-  [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
 ---
-
-<p align="center"> Few lines describing your project.
-    <br> 
-</p>
-
 ## 📝 Table of Contents
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+
 
 ## 🧐 About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
+Hangman Game developed on the .NET framework using C# for its backend, MSSQL for database and Winforms for GUI. This project features a user registration system, password recovery tool, and the game itself. I built this project for my CSC-335-Software Engineering course at Cal Lutheran University. 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-What things you need to install the software and how to install them.
+Please review the prerequisites below to setup and play the game
 
 ```
-Give examples
-```
-
-### Installing
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-Explain what these tests test and why
-
-```
-Give an example
+1.Install .NET 4.7.2 Framework
+2.Install Visual Studio IDE
+2.Clone repo
+3.Update code where noted 
+4.Run exe in \bin\Debug\Hangman.exe 
 ```
 
 ## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
+The system can run on any windows system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Visual Studio](https://visualstudio.microsoft.com/) - IDE
+- [.NET Framework](https://dotnet.microsoft.com/download/dotnet-framework/net472) - Framework
+- [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) - C# backend language
+- [MSSql](https://www.microsoft.com/en-us/sql-server/sql-server-2019) - MSSql Server
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@KAr0ra](https://github.com/KAr0ra)
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
